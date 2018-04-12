@@ -7,7 +7,7 @@
    console.log(city);
     let weather=new XMLHttpRequest();
     
-    weather.open('GET',`http://api.apixu.com/v1/current.json?key=11de647993324c438fe175647181204&q=${city}`,true);
+    weather.open('GET',`https://api.apixu.com/v1/current.json?key=11de647993324c438fe175647181204&q=${city}`,true);
 
     weather.send();
     
