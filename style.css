@@ -1,0 +1,27 @@
+header{
+   background:linear-gradient(rgb(0, 217, 255),white);
+
+   background-size: cover;
+   height:40vh;
+   text-align: center;
+   font-size: 1.3rem;
+}
+
+button{
+   background: rgb(123, 194, 9);
+   color:white;
+   padding:1% 1%;
+}
+
+button:hover{
+   background:rgb(240, 102, 102);
+   color:white;
+}
+
+.place{
+   padding-top:5%;
+}
+
+.result-div{
+   text-align:center;
+}
